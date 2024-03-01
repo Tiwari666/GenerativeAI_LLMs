@@ -21,9 +21,12 @@ Examples of GANs:
 --Deep Convolutional GANs (DCGANs): DCGANs utilize deep convolutional neural networks in both the generator and discriminator networks, enabling stable training and high-quality image generation.
 --Conditional GANs (cGANs): cGANs introduce additional conditioning information, such as class labels or auxiliary data, to both the generator and discriminator networks, allowing for more controlled and targeted generation of data samples.
 
-2) Variational Autoencoders (VAEs) [particularly well-suited for generating images]:  are also trained through a two-part process. The encoder network maps input data to a latent space, where it’s represented as a probability distribution. The decoder network then samples from this distribution to reconstruct the input data. During training, VAEs seek to minimize a loss function that includes two components: reconstruction and regularization. The balance between reconstruction and regularization allows VAEs to generate new data samples by sampling from the learned latent space.
+# 2) Variational Autoencoders (VAEs) [particularly well-suited for generating images]: 
+Variational Autoencoders (VAEs) are also trained through a two-part process. The encoder network maps input data to a latent space, where it’s represented as a probability distribution. The decoder network then samples from this distribution to reconstruct the input data. During training, VAEs seek to minimize a loss function that includes two components: reconstruction and regularization. The balance between reconstruction and regularization allows VAEs to generate new data samples by sampling from the learned latent space.
 
-3) Transformer-based models (e.g., LLMs) — technologies such as Generative Pre-Trained (GPT) language models that can use information gathered on the Internet to create textual content from website articles to press releases to whitepapers.
+# 3) Transformer-based models (e.g., LLMs) 
+
+Transformer-based models (e.g., LLMs) — technologies such as Generative Pre-Trained (GPT) language models that can use information gathered on the Internet to create textual content from website articles to press releases to whitepapers.
 
 Transformer-based models have revolutionized natural language processing (NLP) by introducing a new architecture that relies entirely on self-attention mechanisms and feed-forward neural networks, eliminating the need for recurrent or convolutional layers. 
 
@@ -78,6 +81,7 @@ LLMs, such as OpenAI's GPT (Generative Pre-trained Transformer) series and BERT 
 
 
 SOURCES:
+
 Link 1: https://research.ibm.com/blog/what-is-generative-AI
 
 Link 2: https://en.wikipedia.org/wiki/Generative_artificial_intelligence
