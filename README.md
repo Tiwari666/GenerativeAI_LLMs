@@ -9,7 +9,9 @@ Generative artificial intelligence  is artificial intelligence capable of genera
 # The goal of Generative AI is to minimize the loss function, the statistical difference between the model’s outputs and the data it was trained on. 
 
 # Four Broad Categories of Generative AI 
-# 1) Generative Adversarial Networks (GANs):
+# 1) Generative Adversarial Networks (GANs): consist of two neural networks: a generator and a discriminator.
+The two networks play a guessing game in which the generator gives the discriminator a data sample, and the discriminator predicts whether the sample is real or something the generator made up. The process is repeated until the generator can fool the discriminator with an acceptable level of accuracy. 
+
 Generative Adversarial Networks (GANs) are trained through a two-step process. The generator network learns how to create fake data from random noise. At the same time, the discriminator network learns the difference between real and fake data. The result is a generator network capable of creating high-quality, realistic data samples.
 
 Generative Adversarial Networks or GANs — technologies that can create visual and multimedia artifacts from both imagery and textual input data.
@@ -23,9 +25,16 @@ Examples of GANs:
 --Conditional GANs (cGANs): cGANs introduce additional conditioning information, such as class labels or auxiliary data, to both the generator and discriminator networks, allowing for more controlled and targeted generation of data samples.
 
 # 2) Variational Autoencoders (VAEs) [particularly well-suited for generating images]: 
-Variational Autoencoders (VAEs) are also trained through a two-part process. The encoder network maps input data to a latent space, where it’s represented as a probability distribution. The decoder network then samples from this distribution to reconstruct the input data. During training, VAEs seek to minimize a loss function that includes two components: reconstruction and regularization. The balance between reconstruction and regularization allows VAEs to generate new data samples by sampling from the learned latent space.
+
+Variational Autoencoders (VAEs) are trained through a two-part process: an encoder and a decoder. The encoder takes input data and compresses it into a latent space representation as a probability distribution that preserves its most important features. The decoder then takes the latent space representation and generates new data that captures the most important features of the training data.  During training, VAEs seek to minimize a loss function that includes two components: reconstruction and regularization. The balance between reconstruction and regularization allows VAEs to generate new data samples by sampling from the learned latent space.
+
+
 
 # 3) Transformer-based models (e.g., LLMs) 
+
+Transformer architectures consist of multiple stacked layers, each containing its own self-attention mechanism and feed-forward network. The self-attention mechanism enables each element in a sequence to consider and weigh its relationship with all other elements, and the feed-forward network processes the output of the self-attention mechanism and performs additional transformations on the data. As the model processes an input sequence through the stacked layers, it learns to generate new sequences that capture the most important information for the task.
+
+Generative Pre-trained Transformers (GPTs) are a specific implementation of the transformer architecture. This type of model is first pre-trained on vast amounts of text data to capture linguistic patterns and nuances. Once the foundation training has been completed, the model is then fine-tuned for a specific use. 
 
 Transformer-based models (e.g., LLMs) — technologies such as Generative Pre-Trained (GPT) language models that can use information gathered on the Internet to create textual content from website articles to press releases to whitepapers.
 
