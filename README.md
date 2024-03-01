@@ -65,6 +65,9 @@ Algorithms: Masked self-attention in BERT.
 
 LLMs, such as OpenAI's GPT (Generative Pre-trained Transformer) series and BERT (Bidirectional Encoder Representations from Transformers), are based on the Transformer architecture. They utilize self-attention mechanisms and feed-forward neural networks to process and generate natural language text.
 
+# LangChain 
+LangChain is an intuitive open-source framework created to simplify the development of applications using large language models (LLMs), such as OpenAI or Hugging Face. This allows us to build dynamic, data-responsive applications that harness the most recent breakthroughs in natural language processing (NLP).
+
 # 4) Hybrid Generative AI Models 
  Hybrid Generative AI Models are trained with a combination of techniques. The exact details for training a hybrid generative AI model will vary depending on the specific architecture, its objectives, and the data type involved. 
 
