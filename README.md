@@ -101,4 +101,6 @@ Link 2: https://en.wikipedia.org/wiki/Generative_artificial_intelligence
 
 Link 3: https://www.techopedia.com/definition/34633/generative-ai
 
+Link 4 (see) : https://blog.enterprisedna.co/what-is-langchain-a-beginners-guide-with-examples/
+
 
