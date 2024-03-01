@@ -9,7 +9,8 @@ Generative artificial intelligence  is artificial intelligence capable of genera
 # The goal of Generative AI is to minimize the loss function, the statistical difference between the model’s outputs and the data it was trained on. 
 
 # Four Broad Categories of Generative AI 
-1) Generative Adversarial Networks are trained through a two-step process. The generator network learns how to create fake data from random noise. At the same time, the discriminator network learns the difference between real and fake data. The result is a generator network capable of creating high-quality, realistic data samples.
+# 1) Generative Adversarial Networks (GANs):
+Generative Adversarial Networks (GANs) are trained through a two-step process. The generator network learns how to create fake data from random noise. At the same time, the discriminator network learns the difference between real and fake data. The result is a generator network capable of creating high-quality, realistic data samples.
 
 Generative Adversarial Networks or GANs — technologies that can create visual and multimedia artifacts from both imagery and textual input data.
 Generative Adversarial Networks (GANs) are a class of deep learning models, consisting of two neural networks, the generator and the discriminator, which are trained simultaneously in a competitive setting.
@@ -80,7 +81,7 @@ LLMs, such as OpenAI's GPT (Generative Pre-trained Transformer) series and BERT 
 
 
 
-SOURCES:
+# SOURCES:
 
 Link 1: https://research.ibm.com/blog/what-is-generative-AI
 
