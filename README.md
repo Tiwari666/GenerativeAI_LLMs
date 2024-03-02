@@ -26,7 +26,7 @@ Examples of GANs:
 
 # 2) Variational Autoencoders (VAEs) [particularly well-suited for generating images]: 
 
-Variational Autoencoders (VAEs) are trained through a two-part process: an encoder and a decoder. The encoder takes input data and compresses it into a latent space representation as a probability distribution that preserves its most important features. The decoder then takes the latent space representation and generates new data that captures the most important features of the training data.  During training, VAEs seek to minimize a loss function that includes two components: reconstruction and regularization. The balance between reconstruction and regularization allows VAEs to generate new data samples by sampling from the learned latent space.
+Variational Autoencoders (VAEs) are trained through a two-part process: an encoder and a decoder. The encoder takes input data and compresses it into a latent space representation as a probability distribution that preserves its most important features. The decoder then takes the latent space representation and generates new data that captures the most important features of the training data.  During training, VAEs seek to minimize a loss function (reconstruction error) that includes two components: reconstruction and regularization. The balance between reconstruction and regularization allows VAEs to generate new data samples by sampling from the learned latent space.
 
 
 
