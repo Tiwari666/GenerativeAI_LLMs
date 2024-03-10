@@ -11,7 +11,7 @@ Generative artificial intelligence  is artificial intelligence capable of genera
 
 # The goal of Generative AI is to minimize the loss function, the statistical difference between the model’s outputs and the data it was trained on. 
 
-# Four Broad Categories of Generative AI 
+# Some Broad Categories of Generative AI 
 # 1) Generative Adversarial Networks (GANs)-- based on neural networks architecture--: consist of two neural networks: a generator and a discriminator.
 
 Generator: The generator neural network takes random noise or a latent vector as input and generates data samples (e.g., images) that are intended to resemble samples from the real data distribution. It learns to map points from a latent space to the data space.
