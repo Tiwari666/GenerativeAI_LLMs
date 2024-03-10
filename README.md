@@ -65,6 +65,7 @@ Transformer Models are trained with a two-step process, as well. First, they are
 Examples of Transformer-based models:
 
 --A) Self-Attention Mechanism:
+
 Attention mechanism:  Attention refers to the ability of a transformer model--deep-learning architecture-- to attend to different parts of another sequence of inputs when making predictions.
 
 The attention mechanism lets transformers encode the meaning of words based on importance of various pieces of input data (words or tokens).
