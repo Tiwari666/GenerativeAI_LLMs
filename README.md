@@ -1,5 +1,8 @@
 # Generative AI:
 
+#Note:
+ Not all generative AI methods are based solely on neural networks. While neural networks, particularly deep learning models, have gained significant attention and success in generative tasks due to their ability to learn complex patterns and structures from data. 
+
 Generative AI or generative artificial intelligence refers to the use of AI to generate high-quality new content, like text, images, music, audio, and videos based on the data they were trained on, using the deep-learning models.
 
 Generative AI encompasses unsupervised and semi-supervised machine learning techniques that empower computers to utilize pre-existing content such as text, audio, video files, images, and code to produce novel content. The primary objective is to generate entirely original artifacts that closely resemble the original contents.
@@ -9,7 +12,11 @@ Generative artificial intelligence  is artificial intelligence capable of genera
 # The goal of Generative AI is to minimize the loss function, the statistical difference between the model’s outputs and the data it was trained on. 
 
 # Four Broad Categories of Generative AI 
-# 1) Generative Adversarial Networks (GANs): consist of two neural networks: a generator and a discriminator.
+# 1) Generative Adversarial Networks (GANs)-- based on neural networks architecture--: consist of two neural networks: a generator and a discriminator.
+
+Generator: The generator neural network takes random noise or a latent vector as input and generates data samples (e.g., images) that are intended to resemble samples from the real data distribution. It learns to map points from a latent space to the data space.
+
+Discriminator: The discriminator neural network takes both real data samples and generated samples as input and learns to distinguish between them. It aims to differentiate between real and fake samples, essentially acting as a binary classifier.
 The two networks play a guessing game in which the generator gives the discriminator a data sample, and the discriminator predicts whether the sample is real or something the generator made up. The process is repeated until the generator can fool the discriminator with an acceptable level of accuracy. 
 
 Generative Adversarial Networks (GANs) are trained through a two-step process. The generator network learns how to create fake data from random noise. At the same time, the discriminator network learns the difference between real and fake data. The result is a generator network capable of creating high-quality, realistic data samples.
@@ -24,13 +31,26 @@ Examples of GANs:
 --Deep Convolutional GANs (DCGANs): DCGANs utilize deep convolutional neural networks in both the generator and discriminator networks, enabling stable training and high-quality image generation.
 --Conditional GANs (cGANs): cGANs introduce additional conditioning information, such as class labels or auxiliary data, to both the generator and discriminator networks, allowing for more controlled and targeted generation of data samples.
 
-# 2) Variational Autoencoders (VAEs) [particularly well-suited for generating images]: 
+# Conclusion: 
+
+Generative adversarial networks are a type of machine learning model that uses deep learning techniques to generate new data based on patterns learned from existing data.
+
+GANs consist of two neural networks, generators, and discriminators, that work together to create the most effective generative models. 
+
+The generator-- being a convolutional neural network-- and the discriminator-- being a deconvolutional neural network--are fighting against each other to get one step ahead of the other, hence the name 'adversarial'.
+
+The discriminator network tries to determine whether the image it's given is real or fake. However, the generator tries to fool the discriminator.
+
+Also, they are dependent on each other for efficient training. If one of them fails, the whole system fails. So you have to make sure they don’t explode.
+
+# 2) Variational Autoencoders (VAEs)--based on the neural network architecture-- [particularly well-suited for generating images]: 
 
 Variational Autoencoders (VAEs) are trained through a two-part process: an encoder and a decoder. The encoder takes input data and compresses it into a latent space representation as a probability distribution that preserves its most important features. The decoder then takes the latent space representation and generates new data that captures the most important features of the training data.  During training, VAEs seek to minimize a loss function (reconstruction error) that includes two components: reconstruction and regularization. The balance between reconstruction and regularization allows VAEs to generate new data samples by sampling from the learned latent space.
 
 
 
-# 3) Transformer-based models (e.g., LLMs) 
+# 3) Transformer-based models--based on neural network architecture-- (e.g., LLMs) 
+e.g.,  OpenAI's GPT (Generative Pre-trained Transformer) series, Google's BERT (Bidirectional Encoder Representations from Transformers)
 
 Transformer architectures consist of multiple stacked layers, each containing its own self-attention mechanism and feed-forward network. The self-attention mechanism enables each element in a sequence to consider and weigh its relationship with all other elements, and the feed-forward network processes the output of the self-attention mechanism and performs additional transformations on the data. As the model processes an input sequence through the stacked layers, it learns to generate new sequences that capture the most important information for the task.
 
@@ -71,9 +91,11 @@ LangChain is an intuitive open-source framework created to simplify the developm
 # 4) Hybrid Generative AI Models 
  Hybrid Generative AI Models are trained with a combination of techniques. The exact details for training a hybrid generative AI model will vary depending on the specific architecture, its objectives, and the data type involved. 
 
+# 5) Markov Models:
+Markov models are probabilistic models that use the Markov property, which states that the future state of a system depends only on its current state and not on its past states. Markov models can be used for generating sequences of data by modeling the transition probabilities between different states. E.G., Hidden Markov Models (HMMs) and Markov Chain Monte Carlo (MCMC).
 
-
-
+# 6) RNN 
+# 7) LSTM
 
 
 
