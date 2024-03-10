@@ -1,6 +1,6 @@
 # Generative AI:
 
-#Note:
+# Note:
  Not all generative AI methods are based solely on neural networks. While neural networks, particularly deep learning models, have gained significant attention and success in generative tasks due to their ability to learn complex patterns and structures from data. 
 
 Generative AI or generative artificial intelligence refers to the use of AI to generate high-quality new content, like text, images, music, audio, and videos based on the data they were trained on, using the deep-learning models.
