@@ -3,6 +3,9 @@
 
 Generative AI recognizes patterns and structures within the existing data to produce unique and original content that may include text,audio, visual, code, 3D models, or other types of data. For training, generative AI models can use a variety of learning strategies, such as unsupervised or semi-supervised learning. As a result, businesses are now able to quickly build foundational models using a vast amount of unlabeled data. 
 
+![image](https://github.com/Tiwari666/GenerativeAI_LLMs/assets/153152895/6a0326de-9b1d-452b-beae-bc77e467f230)
+
+
 # Note:
  Not all generative AI methods are based solely on neural networks. While neural networks, particularly deep learning models, have gained significant attention and success in generative tasks due to their ability to learn complex patterns and structures from data. 
 
