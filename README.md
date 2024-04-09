@@ -1,4 +1,4 @@
-# Generative AI:
+# Generative AI: Advanced Neural Network
 
 
 Generative AI recognizes patterns and structures within the existing data to produce unique and original content that may include text,audio, visual, code, 3D models, or other types of data. For training, generative AI models can use a variety of learning strategies, such as unsupervised or semi-supervised learning. As a result, businesses are now able to quickly build foundational models using a vast amount of unlabeled data. 
